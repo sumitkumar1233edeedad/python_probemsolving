@@ -1,3 +1,8 @@
+# given a list and n simply delete the n range above elemnt same in list than delete 
+# ex:- l = [1, 2, 3, 4,1 , 3, 4]
+# n = 1
+# output :- [1, 2, 3, 4] acutal n above element remove in dublication delelte
+
 words = [1, 2, 3, 1, 2, 1, 2,1, 3]
 n = 2
 lo = []
