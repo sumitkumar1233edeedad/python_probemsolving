@@ -1,1 +1,1 @@
-n = str(n)
+print('Actual Your Draw!'if computer == user else())
