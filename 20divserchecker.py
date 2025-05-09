@@ -12,6 +12,7 @@ def checker(n):
     # Create a list of all divisors of n by checking divisibility for each number from 1 to n
     l = [x for x in range(1, n + 1) if n % x == 0]
     # Return the count of divisors
+    
     return len(l)
 
 if __name__ == "__main__":
