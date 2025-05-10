@@ -1,3 +1,2 @@
-print(s)
-# for i in s:
-#     if len(i)
+
+        # Iterate over each substring
