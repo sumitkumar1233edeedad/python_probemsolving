@@ -43,6 +43,19 @@ def convert(st):
              
     
 if __name__ == "__main__":
-    st = "abcd"
-    print(convert(st))
+    test_cases = [
+        "abcd",
+        "RqaEzty",
+        "cwAt",
+        "",                # Empty string
+        "A",               # Single character
+        "xyz",             # Lowercase only
+        "XYZ",             # Uppercase only
+        "aBcDeF",          # Mixed case
+        "helloWorld",      # Longer mixed case
+        "Python3",         # Contains a digit (should ideally be only letters)
+        "a"*10,            # Repeated single character
+    ]
+    for st in test_cases:
+        print(convert(st))
     
