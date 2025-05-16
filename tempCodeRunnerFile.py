@@ -1,2 +1,2 @@
-
-        # Iterate over each substring
+ # while len(n) > 1:
+        #      pass
