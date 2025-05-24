@@ -1,10 +1,10 @@
-print(find_even_index([1,2,3,4,3,2,1]))         # ➞ 3
-    print(find_even_index([1,100,50,-51,1,1]))      # ➞ 1
-    print(find_even_index([1,2,3,4,5,6]))           # ➞ -1
-    print(find_even_index([20,10,30,10,10,15,35]))  # ➞ 3
-    print(find_even_index([10, -80, 10, 10, 15, 35, 20])) # ➞ 6
-    print(find_even_index([0,0,0,0,0]))             # ➞ 0
-    print(find_even_index([1,-1,0]))                # ➞ 2
-    print(find_even_index([2,4,2]))                 # ➞ 1
-    print(find_even_index([1,2,1,2,1,2,1]))         # ➞ 3
-    print(find_even_index([1]))                     # ➞ 0
+print(likes([]))                             # ➞ "no one likes this"
+    print(likes(["Peter"]))                      # ➞ "Peter likes this"
+    print(likes(["Jacob", "Alex"]))              # ➞ "Jacob and Alex like this"
+    print(likes(["Max", "John", "Mark"]))        # ➞ "Max, John and Mark like this"
+    print(likes(["Alex", "Jacob", "Mark", "Max"])) # ➞ "Alex, Jacob and 2 others like this"
+    print(likes(["A", "B", "C", "D", "E"]))      # ➞ "A, B and 3 others like this"
+    print(likes(["Sam"]))                        # ➞ "Sam likes this"
+    print(likes(["Tom", "Jerry"]))               # ➞ "Tom and Jerry like this"
+    print(likes(["Anna", "Elsa", "Olaf", "Kristoff", "Sven"])) # ➞ "Anna, Elsa and 3 others like this"
+    print(likes(["X", "Y", "Z", "W", "V", "U"])) # ➞ "X, Y and 4 others like this"
