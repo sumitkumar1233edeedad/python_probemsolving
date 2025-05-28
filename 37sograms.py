@@ -38,11 +38,11 @@ def is_isogram(string: str) -> bool:
         bool: True if the string is an isogram, False otherwise.
     """
     string = string.lower()  # Convert to lowercase for case-insensitive comparison
+    
     str_list = [i for i in string]  # Create a list of characters
+    
     return len(str_list) == len(set(str_list))  # Compare length with set (unique chars)
     
-
-
 if __name__ == "__main__":
     print(is_isogram("Dermatoglyphics"))  # True
     print(is_isogram("aba"))              # False
