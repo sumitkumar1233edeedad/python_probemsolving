@@ -1,4 +1,17 @@
-print(create_phone([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
+'''
+
+Title: Create Phone Number
+📝 Description:
+
+Write a function that accepts an array of 10 integers (between 0 and 9) and returns a string of those numbers in the form of a phone number.
+
+
+'''
+
+def create_phone(number):
+    return f'({number[0]}{number[1]}{number[2]}) {number[3]}{number[4]}{number[5]}-{number[6]}{number[7]}{number[8]}{number[9]}'
+if __name__ == "__main__":
+    print(create_phone([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
     print(create_phone([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]))
     print(create_phone([9, 8, 7, 6, 5, 4, 3, 2, 1, 0]))
     print(create_phone([5, 5, 5, 1, 2, 3, 4, 5, 6, 7]))
