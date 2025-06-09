@@ -32,7 +32,10 @@ def string_convert(string_c):
      # Convert the string to a list of characters
     if len(string_c)%2 != 0:
         string_c += '_'
-    return [string_c[i:i+2]for i in range(0, len(string_c), 2)]
+    # range(0, len(string_c), 2) generates indices 0, 2, 4, ... up to the length of the string.
+    # For each index i, string_c[i:i+2] takes a substring of two characters.
+    # This splits the string into pairs of two characters.
+    return [string_c[i:i+2] for i in range(0, len(string_c), 2)]
 if __name__ == "__main__":
     print(string_convert('abcd'))      # ['ab', 'cd']
     print(string_convert('abc'))       # ['ab', 'c_']
